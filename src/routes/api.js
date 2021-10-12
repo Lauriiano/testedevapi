@@ -9,7 +9,7 @@ const router = Router();
 router.post('/user/newregister', UserApi.newRegister);
 router.post('/user/login', UserApi.login);
 router.post('/lojas/newregister', Auth.private, lojasApi.newRegister);
-router.get('/lojas/estabelecimento', Auth.private, lojasApi.getEstabelecimento);
+router.get('/lojas/estabelecimento', lojasApi.getEstabelecimento);
 router.put('/lojas/estabelecimento', Auth.private, lojasApi.putEstabelecimento);
 router.delete('/lojas/estabelecimento', Auth.private, lojasApi.deletarEstabelecimento);
 
