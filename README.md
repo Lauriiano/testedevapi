@@ -1,3 +1,5 @@
 # testedevapi
 
-apenas instalar as dependencias, banco de dados está remoto
+api utilizando NodeJs para teste de emprego, Utilizada para backend do testedevapp.
+
+CRUD completo.
